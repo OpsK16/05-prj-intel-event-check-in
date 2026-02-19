@@ -25,7 +25,8 @@ body {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(
+  background:
+    linear-gradient(
       135deg,
       rgba(0, 153, 219, 0.9) 0%,
       rgba(0, 104, 181, 0.9) 50%,
@@ -346,6 +347,39 @@ select {
   font-size: 15px;
   font-weight: 500;
   color: #475569;
+}
+
+.team-count {
+  font-size: 28px;
+  font-weight: 700;
+  color: #0071c5;
+}
+
+.team-members {
+  margin-top: 8px;
+  list-style: none;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-height: 140px;
+  overflow-y: auto;
+}
+
+.team-members li {
+  font-size: 14px;
+  color: #475569;
+}
+
+.celebration-message {
+  display: none;
+  margin-top: 24px;
+  padding: 16px;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #e8f4fc;
+  color: #003c71;
 }
 
 /* Mobile responsive */
